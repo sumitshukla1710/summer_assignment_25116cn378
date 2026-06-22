@@ -23,6 +23,7 @@ int main(){
             if(arr1[i]==arr2[j]){
                 printf("%d ",arr1[i]);
                 found=1;
+                break;
             }
         }
     }

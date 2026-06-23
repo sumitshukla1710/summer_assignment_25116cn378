@@ -16,6 +16,7 @@ public class Problem76 {
         }
         if(r!=c){
             System.out.println("please enter the square matrix for sum of diagonal.");
+            return;
         }
         else{
         
@@ -23,7 +24,7 @@ public class Problem76 {
        
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                if(i==j){
+                if(i==j|| i+j=r-1){
                 sum=sum+arr[i][j];
                 }
             }

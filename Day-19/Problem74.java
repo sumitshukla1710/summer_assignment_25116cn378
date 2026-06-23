@@ -27,7 +27,7 @@ public class Problem74 {
             
         }
         if(r1!=r2 || c1!=c2){
-            System.out.println("addition is not possible.");
+            System.out.println("subtraction is not possible.");
         }
         else{
          int[][] arr3=new int[r1][c1];
